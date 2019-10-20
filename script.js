@@ -1,6 +1,11 @@
 $(document).ready(function() {
+<<<<<<< HEAD
   const apiRoot = 'https://evening-savannah-52706.herokuapp.com/v1/';
   const trelloApiRoot = 'https://evening-savannah-52706.herokuapp.com/v1/trello/';
+=======
+  const apiRoot = 'https://evening-savannah-52706.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://evening-savannah-52706.herokuapp.com/v1/trello';
+>>>>>>> parent of 0fcb7cf... Update script.js
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
